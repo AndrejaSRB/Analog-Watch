@@ -1,0 +1,110 @@
+.one {
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    top: 221px;
+    left: 996px;
+     transform: rotate(120deg) translate(-50%, -50%);
+}
+.two {
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    top: 251px;
+    left: 1030px;
+     transform: rotate(148deg) translate(-50%, -50%);
+}
+.three {
+    height: 6px;
+    width: 21px;
+    background-color: black;
+    display: block;
+    position: absolute;
+     top: 300px;
+     left: 1044px;
+}
+.four {
+    height: 6px;
+    width: 10px;
+    background-color: black;
+    display: block;
+    position: absolute;
+     top: 351px;
+     left: 1043px;
+     transform: rotate(27deg) translate(-50%, -50%);
+}
+.five {
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+     top: 388px;
+     left: 1007px;
+     transform: rotate(56deg) translate(-50%, -50%);
+}
+.six {
+    height: 22px;
+    width: 6px;
+    background-color: black;
+    position: absolute;
+    top: 383px;
+    left: 959px;
+}
+.seven{
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+     top: 388px;
+     left: 904px;
+     transform: rotate(123deg) translate(-50%, -50%);
+}
+.eight{
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+     top: 352px;
+     left: 868px;
+     transform: rotate(147deg) translate(-50%, -50%);
+}
+.nine {
+    height: 6px;
+    width: 22px;
+    background-color: black;
+    display: block;
+    position: absolute;
+     top: 304px;
+     left: 857px;
+}
+.ten{
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+     top: 248px;
+     left: 870px;
+     transform: rotate(209deg) translate(-50%, -50%);
+}
+.eleven{
+    height: 6px;
+    width: 10px;
+    display: block;
+    position: absolute;
+     top: 213px;
+     left: 908px;
+     transform: rotate(240deg) translate(-50%, -50%);
+}
+.twelve{
+    height: 22px;
+    width: 6px;
+    background-color: black;
+    position: absolute;
+    top: 205px;
+    left: 957px;
+}  
+.one, .two, .four, .five, .eight, .seven, .ten, .eleven {
+    background-color: gray;
+}

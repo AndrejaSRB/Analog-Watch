@@ -1,0 +1,64 @@
+.day {
+    position: relative;
+}
+#mon, #tue, #wed, #thu, #fri, #sat, #sun {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+#mon {
+    position: absolute;
+    right: 67px;
+    top: 7px;
+ }
+#tue {
+    position: absolute;
+    right: 51px;
+    top: 0px;
+ }
+#wed {
+    position: absolute;
+    right: 25px;
+    top: 6px;
+ }
+#thu {
+    position: absolute;
+    right: 11px;
+    top: 19px;
+ }
+#fri {
+    position: absolute;
+    right: 1px;
+    top: 39px;
+ }
+#sat {
+    position: absolute;
+    right: 7px;
+    top: 59px;
+ }
+#sun {
+    position: absolute;
+    right: 23px;
+    top: 72px;
+}
+.date-point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 46px;
+    z-index: 2;
+}
+.date-cursor {
+    width: 2px;
+    height: 21px;
+    display: block;
+    background-color: black;
+    transform: rotate(30deg) translate(-50%, -50%);
+    position: absolute;
+    top: 36px;
+    left: 52px;
+}

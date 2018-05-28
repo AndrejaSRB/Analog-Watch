@@ -1,0 +1,98 @@
+body {
+    background-image: url('img/wall3.jpg');
+    background-repeat: no-repeat;
+}
+.window {
+width: 535px;
+height: 395px;
+position: absolute;
+top: 108px;
+left: 97px;
+overflow: hidden;
+}
+.nature {
+    width: 258px;
+    height: 274px;
+    position: absolute;
+    top: 170px;
+left: 244px;
+
+}
+.kitchen {
+    width: 1000px;
+    position: absolute;
+    bottom: 0;
+    right: 498px;
+}
+.fridge{
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.wrapper { 
+    display: block;
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.point {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 295px;
+    left: 952px;
+    z-index: 9999;;
+}
+.seconds {
+    height: 81px;
+    width: 2px;
+    background-color: red;
+    position: absolute;
+    top:264px;
+    left: 959px;
+    transform: rotate(0deg) translate(-50%, -50%);
+    z-index: 9999;
+
+
+}
+.hours {
+    height: 60px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    top:272px;
+    left: 959px;
+    transform: rotate(0deg) translate(-50%, -50%);
+}
+.minutes {
+    height: 81px;
+    width: 3px;
+    background-color: black;
+    position: absolute;
+    top:263px;
+    left: 961px;
+    transform: rotate(0deg) translate(-50%, -50%);
+}
+.day {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    position: absolute;
+    top: 198px;
+    right: 817px;
+    z-index: -1;
+    
+}
+
